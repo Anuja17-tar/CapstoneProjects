@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: team-up
+  cloud:
+    config:
+      uri: http://localhost:8888
+      import-check:
+        enabled: false
+    mangement:
+      security:
+        enabled: false
